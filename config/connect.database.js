@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 async function connect(){
     try{
-        await mongoose.connect('mongodb://GoStackTeam:HuJunk10H04ngTh4ngD3p7r41Nh4tH3M47Tr01@66.42.56.19:27017/duong_data?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&ssl=false', {
+        await mongoose.connect('mongodb://GoStackTeam:HuJunk10H04ngTh4ngD3p7r41Nh4tH3M47Tr01@45.76.153.75:27017/?compressors=disabled&gssapiServiceName=mongodb', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useFindAndModify: false,
